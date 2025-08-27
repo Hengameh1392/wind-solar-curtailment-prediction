@@ -1,7 +1,11 @@
-# Exclude all in outputs except specific plots
+# Exclude all in outputs except specific files
 outputs/*
 !outputs/plots/
 !outputs/plots/correlation_matrix.png
 !outputs/plots/autocorr_wind.png
 !outputs/plots/autocorr_solar.png
+!outputs/plots/wind_solar_wavelet.png
 !outputs/plots/wind_solar_curtailment_*.png
+!outputs/predictions/
+!outputs/predictions/simple_transformer_predictions.csv
+!outputs/predictions/wavelet_transformer_predictions.csv
