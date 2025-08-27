@@ -1,2 +1,7 @@
-data/*.csv 
-outputs/* 
+# Exclude all in outputs except specific plots
+outputs/*
+!outputs/plots/
+!outputs/plots/correlation_matrix.png
+!outputs/plots/autocorr_wind.png
+!outputs/plots/autocorr_solar.png
+!outputs/plots/wind_solar_curtailment_*.png
