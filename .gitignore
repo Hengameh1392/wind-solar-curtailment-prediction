@@ -9,3 +9,4 @@ outputs/*
 !outputs/predictions/
 !outputs/predictions/simple_transformer_predictions.csv
 !outputs/predictions/wavelet_transformer_predictions.csv
+!outputs/best_model_simple_transformer.pth
