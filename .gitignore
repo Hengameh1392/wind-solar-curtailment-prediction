@@ -9,5 +9,10 @@ outputs/*
 !outputs/predictions/
 !outputs/predictions/simple_transformer_predictions.csv
 !outputs/predictions/wavelet_transformer_predictions.csv
-!outputs/best_model_simple_transformer.pth
-!outputs/best_model_wavelet_transformer.pth
+!outputs/best_model_simple_transformer_*.pth
+!outputs/best_model_wavelet_transformer_*.pth
+!outputs/preprocessed/
+!outputs/preprocessed/preprocessed_df.csv
+!outputs/preprocessed/scaler_solar.pkl
+!outputs/preprocessed/scaler_wind.pkl
+!outputs/preprocessed/wavelet_coeffs.pkl
